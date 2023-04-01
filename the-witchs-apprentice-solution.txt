@@ -1,0 +1,148 @@
+The Witch's Apprentice version 1.1.0
+By Garry Francis
+For web browser
+
+Solution by Garry Francis
+----------------------------------------
+This is a minimal solution. You'll need to EXAMINE lots of things for this solution to make sense. Make sure you examine EVERYTHING, as there are lots of useful hints and funny responses. A few optional (but significant) commands are shown in parentheses. You can omit these once you know what to do.
+
+Your initial objective is to find the witch so that you can get your instructions. She gives you a list of eight ingredients that she needs to make a brew. The ingredients are:
+    Eye of newt
+    Wing of bat
+    Hemlock root
+    Tail of rat
+    Poison fruit
+    Toe of frog
+    Leather boot
+    Moss of bog
+
+Note that two of these ingredients are the same as ingredients from the famous witches' brew in Shakespeare's 'Macbeth'. In Shakespeare's time, it was common for herbs to be given fanciful names, so you will need to work out the actual names for those two items. Don't panic, the game tells you everything you need to know.
+
+Nearly all the ingredients are easy to find, but some are hard to get, as there are multiple elements to most of the puzzles. As you acquire the ingredients, your tally is shown in the solution as (A/B), where A is the number of ingredients acquired and B is the total number of ingredients. You don't earn any points for the ingredients until you give them to the witch, 5 points per ingredient. Scores are shown in the solution as (+C=D), where C is points earned and D is cumulative points earned.
+
+This game is chock full of red herrings. Part of the challenge is working out what's useful and what isn't. Your inventory is limited to 5 items, so you will need to make at least two trips to the basement. If you manage your inventory carefully and discard items when you're finished with them, you can do it in two trips.
+
+(I) (you're wearing a backpack)
+OPEN GATE
+N
+(X LANTERN) (it has a candle inside)
+GET CANDLE
+(X INTERCOM) (it has a button below the grill)
+PRESS BUTTON (witch unlocks door and tells you to come down to basement)
+OPEN DOOR
+N
+REMOVE BACKPACK
+DROP IT
+N
+D (witch gives you instructions and places list of ingredients on workbench)
+READ LIST (take note of ingredients)
+U
+S
+E
+GET LADDER
+W
+W
+X TABLE (you find cup and saucer)
+GET SAUCER
+E
+N
+N
+W
+(X SHELVES) (3 shelves - top, middle & bottom)
+(X TOP) (contains 6 jars, examine them to see if any are needed)
+(X SEED) (it's eye of newt)
+(X BUTTERCUP) (it's toe of frog)
+(GET SEED) (you can't reach it)
+DROP LADDER
+CLIMB IT
+GET SEED (1/8)
+GET BUTTERCUP (2/8)
+(X MIDDLE) (contains 6 jars, examine them to see if any are needed)
+(X BOTTOM) (contains 6 jars, examine them to see if any are needed)
+D
+E
+E
+N
+OPEN FRIDGE
+(X IT) (it contains cheese and milk)
+GET MILK
+W
+N
+(GET CAT) (you'll have to befriend it first)
+DROP SAUCER
+POUR MILK (cat laps it up, you've made a friend)
+DROP MILK
+GET CAT
+S ("tinkle, tinkle")
+(X CAT) (it wears a collar)
+(X COLLAR) (it has a small bell attached)
+GET BELL
+DROP IT (so that the rat is not scared off by the bell)
+E
+DROP CAT (it kills rat)
+(X RAT) (it has a long tail)
+(X SINK) (you find a knife)
+GET KNIFE
+CUT TAIL (with knife, tail falls to ground)
+GET TAIL (3/8)
+W
+S
+D
+GIVE SEED (+5=5)
+GIVE BUTTERCUP (+5=10)
+GIVE TAIL (+5=15)
+U
+U
+N
+N
+GET NET
+S
+S
+D
+N
+N
+N
+E
+(X HEMLOCK) (it has a hairy root)
+CUT ROOT (with knife)
+GET IT
+(X IT) (it's covered in dirt)
+GET SPADE
+W
+N
+(X SLIT) (there's a hook above cave entrance)
+(X HOOK) (you can hang things from it)
+HANG NET (it covers upper portion of slit)
+E (you disturb bats and one gets caught in net)
+DIG GUANO (with spade to find leather boot)
+DROP SPADE
+GET BOOT (4/8)
+W
+DROP CANDLE
+(X NET) (there's a bat tangled in it)
+GET BAT
+(X IT) (it's dead with a broken wing)
+CUT WING
+DROP BAT
+DROP KNIFE
+GET WING (5/8)
+W
+(X LOG) (there's bog moss growing on it)
+GET MOSS (6/8)
+E
+S
+GET FRUIT (7/8)
+(X IT) (it's rotten, so might be poison)
+S
+S
+E
+WASH ROOT (you wash the dirt off it) (8/8)
+W
+S
+D
+GIVE BOOT (+5=20)
+GIVE WING (+5=25)
+GIVE MOSS (+5=30)
+GIVE FRUIT (+5=35)
+GIVE ROOT (+5=40)
+***THE END***
